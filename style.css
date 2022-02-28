@@ -7,6 +7,17 @@
     font-family: 'Roboto', sans-serif;
 }
 
+header{
+    background-color: #fff;
+    min-height: 94px;
+    border-bottom: 1px solid gray;
+    padding: 20px 20px 0 20px;
+}
+
+svg{
+    height: 40px;
+}
+
 p{
     line-height: 24px;
     padding-top: 15px;
@@ -19,4 +30,13 @@ ol li p, ol p{
 
 a{
     text-decoration: none;
+}
+
+.nav-link{
+    color: gray;
+}
+
+.nav-link.active{
+    color: #0d6efd;
+    border-bottom:3px solid #0d6efd;
 }

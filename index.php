@@ -54,7 +54,7 @@ $faqs = [
             '<ol><li>La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti.
              Generalmente Google offre i propri servizi per i consumatori tramite una delle due società seguenti:',
 
-            '<ol><li>Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell\'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.</li>',
+            '<ol type="a"><li>Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell\'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.</li>',
 
             '<li>Google LLC, con sede negli Stati Uniti, per il resto del mondo.</li></ol></li>',
 
@@ -114,6 +114,38 @@ $faqs = [
 </head>
 
 <body>
+    <header class="sticky-top">
+        <div class="upper-head d-flex align-items-center justify-content-between">
+            <figure class="d-flex m-0">
+                <img class="img-fluid pe-1" src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="logo">
+                <span><a class="text-muted fs-4" href="#">Privacy e termini</a></span>
+            </figure>
+            <svg role="button" focusable="false" viewBox="0 0 24 24">
+                <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path>
+            </svg>
+        </div>
+
+        <div class="nav-head">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link ps-0" href="#">Introduzione</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Norme sulla privacy</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Termini di servizio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tecnologie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Domande frequenti</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
     <div class="container">
         <?php foreach ($faqs as $faq) : ?>
             <h2><?= $faq['title'] ?></h2>
@@ -122,6 +154,10 @@ $faqs = [
             <?php endforeach; ?>
         <?php endforeach; ?>
     </div>
+
+    <footer>
+
+    </footer>
 </body>
 
 </html>
