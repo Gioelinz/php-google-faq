@@ -62,7 +62,7 @@ $faqs = [
 
             'Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere dalla società consociata che li offre o dal paese a cui è associato il tuo account.',
 
-            '<h3<Stabilire il paese associato al tuo account</h3>',
+            '<h3>Stabilire il paese associato al tuo account</h3>',
 
             'Quando crei un nuovo Account Google, lo associamo a un paese in base a dove è stato creato. 
             Per quanto riguarda gli account creati almeno un anno fa, usiamo il paese da cui accedi solitamente ai servizi Google, 
@@ -117,6 +117,9 @@ $faqs = [
     <div class="container">
         <?php foreach ($faqs as $faq) : ?>
             <h2><?= $faq['title'] ?></h2>
+            <?php foreach ($faq['content'] as $paragraph) : ?>
+                <p><?= $paragraph ?></p>
+            <?php endforeach; ?>
         <?php endforeach; ?>
     </div>
 </body>

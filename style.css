@@ -6,3 +6,17 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+p{
+    line-height: 24px;
+    padding-top: 15px;
+}
+
+ol li p, ol p{
+    padding: 0;
+    line-height: 15px;
+}
+
+a{
+    text-decoration: none;
+}
