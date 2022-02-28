@@ -72,7 +72,7 @@ $faqs = [
 
             'Se il paese associato al tuo account non corrisponde al tuo paese di residenza, il motivo potrebbe essere la differenza tra il paese in cui lavori e il paese in cui risiedi, 
             l\'installazione di una rete privata virtuale (VPN) per mascherare il tuo indirizzo IP oppure la residenza vicino a un confine territoriale. 
-            <a href="#">Contattaci</a> se ritieni che il paese associato al tuo account sia sbagliato.'
+            <a href="#" class="contact">Contattaci</a> se ritieni che il paese associato al tuo account sia sbagliato.'
         ]
     ],
     [
