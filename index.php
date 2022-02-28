@@ -156,7 +156,29 @@ $faqs = [
     </div>
 
     <footer>
-
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link ps-0" href="#">Google</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tutto su Google</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Privacy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Termini</a>
+                    </li>
+                </ul>
+                <div>
+                    <select>
+                        <option>Italiano</option>
+                    </select>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 
