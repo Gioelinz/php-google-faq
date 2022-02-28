@@ -114,7 +114,7 @@ $faqs = [
 </head>
 
 <body>
-    <header class="sticky-top">
+    <header class="sticky-top mb-5">
         <div class="upper-head d-flex align-items-center justify-content-between">
             <figure class="d-flex m-0">
                 <img class="img-fluid pe-1" src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="logo">
@@ -155,7 +155,7 @@ $faqs = [
         <?php endforeach; ?>
     </div>
 
-    <footer>
+    <footer class="mt-5">
         <div class="container">
             <div class="d-flex justify-content-between align-items-center">
                 <ul class="nav">
